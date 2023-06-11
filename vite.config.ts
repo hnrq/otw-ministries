@@ -7,6 +7,9 @@ export default defineConfig({
 		include: ['tests/**/*.{test,spec}.{js,ts}'],
 		environment: 'happy-dom',
 		setupFiles: ['tests/setup.ts'],
-		globals: true
+		globals: true,
+		deps: {
+			inline: [`@sveltejs/kit`],
+	  },
 	}
 });
