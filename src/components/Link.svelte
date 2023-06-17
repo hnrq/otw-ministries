@@ -11,7 +11,8 @@
 
 <style lang="scss">
 	.link {
-		font-family: 'Karla';
+		text-decoration: none;
+		text-transform: uppercase;
 		&--active {
 			font-weight: bold;
 		}
