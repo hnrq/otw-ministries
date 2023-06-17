@@ -1,0 +1,26 @@
+@use 'utils';
+
+:root {
+  --base-spacing: 8px;
+  --body-font: 'Karla', sans-serif;
+  --header-font: 'Cormorant Garamont', serif;
+  --base-color: 355deg, 0%, 0%;
+
+  @include utils.generate-text-palette(var(--base-color));
+}
+
+* {
+  font-family: var(--body-font);
+  color: var(--text-high);
+}
+
+h1 {
+	font-family: var(--header-font);
+	font-size: 4rem;
+}
+
+h2 {
+	font-family: var(--header-font);
+	letter-spacing: 0.5rem;
+	font-size: 3.5rem;
+}
