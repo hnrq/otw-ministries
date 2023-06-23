@@ -12,7 +12,7 @@ describe('<Link />', () => {
 			writable: true
 		});
 		const link = faker.word.verb();
-		const { getByText, rerender } = render(html`<${Link} href=${href}>${link}</${Link}>`);
+		const { getByText } = render(html`<${Link} href=${href}>${link}</${Link}>`);
 
 		expect(getByText(link)).toHaveClass('link--active');
 	});

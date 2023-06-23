@@ -7,5 +7,16 @@
 	},
 	"home": {
 		"title": "We assist people back into society by attending basic needs with a spiritual emphasis."
+	},
+	"about": {
+		"title": "About us",
+		"subtitle": "Blessed by God to be a blessing to his people",
+		"text": "Outside the Walls Ministries (OTWM) was organized by Rev. Tommie A. Johnson in 2005. The ministry was designed to assist men and women to successfully re-enter mainstream living. OTWM promotes the reconnection of families, broken due to incarceration. This ministry links ex-offenders to the needed resources that will foster self- sufficiency. This non-for-profit organization works diligently to serve those in need.",
+		"subsections": [
+			{
+				"title": "We work with juveniles and adults",
+				"text": "We work with those with or without gang affiliations. We work with those incarcerated and formerly incarcerated. We also work with the addicted and formerly addicted to drugs and alcohol. Our ministry extends its support far beyond incarcerations, addiction and gang affiliations."
+			}
+		]
 	}
 }
