@@ -1,2 +1,22 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import { _ } from 'svelte-i18n';
+</script>
+
+<section class="home">
+	<h1 class="home__title">{$_('home.title')}</h1>
+	<div class="home__picture" />
+</section>
+
+<style lang="scss">
+	.home {
+		&__title {
+			font-style: italic;
+		}
+
+		&__picture {
+			max-width: 500px;
+			height: 500px;
+			background-color: gray;
+		}
+	}
+</style>
