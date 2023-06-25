@@ -3,7 +3,7 @@
 :root {
 	--base-spacing: 8px;
 	--body-font: 'Karla', sans-serif;
-	--header-font: 'Cormorant', serif;
+	--header-font: 'Cormorant Garamond', serif;
 	--base-color: 355deg, 0%, 0%;
 
 	@include utils.generate-text-palette(var(--base-color));
@@ -14,8 +14,16 @@
 	color: var(--text-high);
 }
 
+html {
+	font-size: 18px;
+
+	@include utils.breakpoint-down('sm') {
+		font-size: 16px;
+	}
+}
+
 h1 {
-	font-size: 4rem;
+	font-size: 3.5rem;
 }
 
 h1,
@@ -28,5 +36,5 @@ h6 {
 }
 
 h2 {
-	font-size: 3.5rem;
+	font-size: 3rem;
 }

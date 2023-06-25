@@ -5,7 +5,7 @@
 </script>
 
 <Header />
-<Container size="lg">
+<Container size="md">
 	<slot />
 </Container>
 

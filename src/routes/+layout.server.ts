@@ -3,6 +3,6 @@ import '../i18n';
 
 /** @type {import('./$types').LayoutServerLoad} */
 export async function load() {
-	waitLocale();
+	await waitLocale();
 	return {};
 }

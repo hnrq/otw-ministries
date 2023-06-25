@@ -9,12 +9,19 @@
 
 <style lang="scss">
 	.home {
+		position: relative;
+
 		&__title {
+			max-width: 500px;
 			font-style: italic;
 		}
 
 		&__picture {
-			max-width: 500px;
+			position: absolute;
+			right: 0;
+			top: 0;
+			z-index: -1;
+			width: 500px;
 			height: 500px;
 			background-color: gray;
 		}

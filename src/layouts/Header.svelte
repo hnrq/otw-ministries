@@ -26,7 +26,7 @@
 		gap: utils.spacing(2);
 
 		&__links {
-			gap: utils.spacing(2);
+			gap: utils.spacing(1);
 			display: flex;
 		}
 	}
