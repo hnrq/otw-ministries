@@ -62,6 +62,9 @@ devDependencies:
   svelte-check:
     specifier: ^3.4.4
     version: 3.4.4(postcss@8.4.24)(sass@1.63.6)(svelte@3.59.2)
+  svelte-forms:
+    specifier: ^2.3.1
+    version: 2.3.1
   svelte-htm:
     specifier: ^1.2.0
     version: 1.2.0(svelte@3.59.2)
@@ -1934,6 +1937,10 @@ packages:
     resolution: {integrity: sha512-+lP4/6lKUBfQjZ2pdxThZvLUAafmZb8OAxFb8XXtiQmS35INgr85hdOGoEs124ez1FCnZJt6jau/T+alh58QFQ==}
     dev: true
 
+  /is-promise@4.0.0:
+    resolution: {integrity: sha512-hvpoI6korhJMnej285dSg6nu1+e6uxs7zG3BYAm5byqDsgJNWwxzM6z6iZiAgQR4TJ30JmBTOwqZUw3WlyH3AQ==}
+    dev: true
+
   /is-regex@1.1.4:
     resolution: {integrity: sha512-kvRdxDsxZjhzUX07ZnLydzS1TU/TJlTUHHY4YLL87e37oUA49DfkLqgy+VjFocowy29cKvcSiu+kIv728jTTVg==}
     engines: {node: '>= 0.4'}
@@ -2758,6 +2765,12 @@ packages:
       postcss: 8.4.24
       postcss-scss: 4.0.6(postcss@8.4.24)
       svelte: 3.59.2
+    dev: true
+
+  /svelte-forms@2.3.1:
+    resolution: {integrity: sha512-ExX9PM0JgvdOWlHl2ztD7XzLNPOPt9U5hBKV8sUAisMfcYWpPRnyz+6EFmh35BOBGJJmuhTDBGm5/7seLjOTIA==}
+    dependencies:
+      is-promise: 4.0.0
     dev: true
 
   /svelte-fragment-component@1.2.0(svelte@3.59.2):
