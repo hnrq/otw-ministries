@@ -4,7 +4,7 @@
 	--base-spacing: 8px;
 	--body-font: 'Karla', sans-serif;
 	--header-font: 'Cormorant Garamond', serif;
-	--base-color: 355deg, 0%, 0%;
+	--base-color: 22deg, 50%, 5%;
 
 	@include utils.generate-text-palette(var(--base-color));
 }
