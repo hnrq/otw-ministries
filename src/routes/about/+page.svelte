@@ -13,7 +13,7 @@
 		<small class="about__subtitle">{$_('about.subtitle')}</small>
 		<p>{$_('about.text')}</p>
 		{#each subsections as subsection}
-			<h5>{subsection.title}</h5>
+			<h3>{subsection.title}</h3>
 			<p>{subsection.text}</p>
 		{/each}
 	</div>
