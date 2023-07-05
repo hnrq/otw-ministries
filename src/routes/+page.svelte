@@ -1,9 +1,7 @@
-<script lang="ts">
-	import { _ } from 'svelte-i18n';
-</script>
-
 <section class="home">
-	<h1 class="home__title">{$_('home.title')}</h1>
+	<h1 class="home__title">
+		We assist people back into society by attending basic needs with a spiritual emphasis.
+	</h1>
 	<div class="home__picture" />
 </section>
 

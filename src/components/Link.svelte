@@ -4,7 +4,11 @@
 
 	export let href: string;
 
-	const isActive = $page.url.pathname === href;
+	let isActive: boolean;
+
+	$: {
+		isActive = $page.url.pathname === href;
+	}
 </script>
 
 <a {href} class={classNames('link', { 'link--active': isActive })}><slot /></a>

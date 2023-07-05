@@ -10,7 +10,6 @@
 <script lang="ts">
 	import { field, form, type Validator } from 'svelte-forms';
 	import { required, email } from 'svelte-forms/validators';
-	import { _ } from 'svelte-i18n';
 
 	import { enhance } from '$app/forms';
 	import FormInput from '$components/FormInput.svelte';
@@ -49,8 +48,11 @@
 </script>
 
 <section class="contact">
-	<h2 class="contact__title">{$_('contact.title')}</h2>
-	<small class="contact__subtitle">{$_('contact.subtitle')}</small>
+	<h2 class="contact__title">Contact us</h2>
+	<small class="contact__subtitle">
+		If you are in need of assistance, please feel free to contact us so that we can help you help
+		yourself on this new journey to freedom and recovery.
+	</small>
 
 	<form
 		class="contact__form"
