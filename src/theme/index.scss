@@ -4,14 +4,18 @@
 	--base-spacing: 8px;
 	--body-font: 'Karla', sans-serif;
 	--header-font: 'Cormorant Garamond', serif;
-	--base-color: 22deg, 50%, 5%;
-
+	--base-color: 0deg, 0%, 0%;
+	--primary-color: hsla(20, 100%, 39%, 1);
 	@include utils.generate-text-palette(var(--base-color));
 }
 
 * {
 	font-family: var(--body-font);
 	color: var(--text-high);
+}
+
+body {
+	background-color: #fafafa;
 }
 
 html {

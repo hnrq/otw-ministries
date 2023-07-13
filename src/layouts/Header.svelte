@@ -4,7 +4,7 @@
 </script>
 
 <nav class="header">
-	<Link href="/"><Logo /></Link>
+	<Link href="/"><Logo width={40} height={40} /></Link>
 	<div class="header__links">
 		<Link href="/about">About Us</Link>
 		<Link href="/referral">Referral Services</Link>

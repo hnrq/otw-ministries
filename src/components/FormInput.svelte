@@ -32,12 +32,13 @@
 			padding: utils.spacing(1.5);
 			border: none;
 			border-radius: 4px;
-			background-color: #f9f9f9;
+			background-color: hsla(0, 0, 0, 0.03);
 			color: var(--text-high);
 		}
 
 		&__error {
 			margin-left: utils.spacing(1);
+			font-size: 0.75rem;
 		}
 
 		textarea.input__field {
