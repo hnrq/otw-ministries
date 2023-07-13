@@ -1,0 +1,180 @@
+[
+	{
+		"name": "Food",
+		"children": [
+			{
+				"name": "Greater Chicago Food Depository",
+				"url": "https://www.chicagosfoodbank.org/find-food/"
+			},
+			{
+				"name": "Nourishing Hope",
+				"url": "https://www.nourishinghopechi.org/"
+			},
+			{
+				"name": "Heartland Alliance Groceryland (specifically for those impacted by HIV/AIDS)",
+				"url": "https://www.heartlandalliance.org/program/vital-bridges-food-program/"
+			},
+			{
+				"name": "211 Metro Chicago",
+				"url": "https://211metrochicago.org/"
+			}
+		]
+	},
+	{
+		"name": "Illinois Secretary of State",
+		"subtitle": "Please note: Even if you cannot get a Drivers license, with the correct documents, you can get a state ID.",
+		"children": [
+			{
+				"name": "State ID and Drivers Licenses",
+				"url": "https://www.ilsos.gov/publications/pdf_publications/dsd_x173.pdf"
+			},
+			{
+				"name": "Driving and license issues",
+				"url": "https://www.ilsos.gov/departments/administrative_hearings/home.html"
+			}
+		]
+	},
+	{
+		"name": "Education",
+		"children": [
+			{
+				"name": "City Colleges of Chicago",
+				"note": "Adult Basic Education, English as a Second Language, Vocational certificates and Associate degrees",
+				"url": "https://www.ccc.edu/Pages/default.aspx"
+			},
+			{
+				"name": "Chicago Alternative High Schools for ages 16-21",
+				"url": "https://chicago.ombudsman.com/Alternative-Education?keyword=alternative%20high%20school&gclid=CjwKCAjwzuqgBhAcEiwAdj5dRvFWiBY8zADW5CnrQ0Jcs_9IyrIpw5-5oYxtLS8qDxyxh2J4mxz9phoCU2QQAvD_BwE"
+			},
+			{
+				"name": "GED",
+				"url": "https://www.ccc.edu/site/Pages/GED-Testing-Resources.aspx"
+			}
+		]
+	},
+	{
+		"name": "Job Training",
+		"children": [
+			{
+				"name": "Greater Chicago Food Depository",
+				"url": "https://www.chicagosfoodbank.org/get-help/job-training/"
+			},
+			{
+				"name": "Center on Halsted Silver Fork Program",
+				"url": "https://www.centeronhalsted.org/silverfork.html"
+			},
+			{
+				"name": "Jane Addams Resource Center",
+				"url": "https://www.jane-addams.org/job-seekers/job-training-programs/"
+			},
+			{
+				"name": "Greater West Town Vocational Training",
+				"url": "https://gwtp.org/vocpage"
+			},
+			{
+				"name": "Chicago Urban League",
+				"url": "https://chiul.org/program/workforce/"
+			},
+			{
+				"name": "St. Sabina Employment Resource Center",
+				"url": "https://www.ercsabina.org/"
+			},
+			{
+				"name": "North Lawndale Employment Network",
+				"url": "https://www.nlen.org/"
+			},
+			{
+				"name": "Paul Simon Chicago Job Corps Center",
+				"url": "https://paulsimonchicago.jobcorps.gov/"
+			},
+			{
+				"name": "Inner City Muslim Action Network",
+				"url": "https://www.imancentral.org/chicago/project-green-reentry/"
+			},
+			{
+				"name": "Chicago Women in Trades",
+				"url": "https://cwit.org/"
+			}
+		]
+	},
+	{
+		"name": "Narcan",
+		"children": [
+			{
+				"name": "Available in all Chicago Public Libraries—free Narcan",
+				"url": "https://www.chipublib.org/"
+			},
+			{
+				"name": "Illinois Department of Public Health Narcan Training Brochure",
+				"url": "https://dph.illinois.gov/content/dam/soi/en/web/idph/files/images/naloxone-brochure-09052017.pdf"
+			},
+			{
+				"name": "Chicago Recovery Alliance",
+				"url": "https://anypositivechange.org/",
+				"note": "Needle exchange, fentanyl testing strips, safer smoking kits, Narcan, outreach van schedule"
+			}
+		]
+	},
+	{
+		"name": "Recovery Resources and meetings",
+		"children": [
+			{
+				"name": "Chicago Recovery Communities Coalition",
+				"url": "https://www.chicagorecovery.org/"
+			}
+		]
+	},
+	{
+		"name": "Healthcare",
+		"children": [
+			{
+				"name": "Federally qualified health care centers in Chicago",
+				"url": "https://data.cityofchicago.org/widgets/cjg8-dbka"
+			},
+			{
+				"name": "Chicago Department of Public Health",
+				"url": "https://www.chicago.gov/city/en/depts/cdph.html"
+			},
+			{
+				"name": "Cook County Department of Public Health",
+				"url": "https://cookcountypublichealth.org/"
+			}
+		]
+	},
+	{
+		"name": "Free Dental Care",
+		"children": [
+			{
+				"name": "Federally qualified health care centers in Chicago",
+				"url": "https://data.cityofchicago.org/widgets/cjg8-dbka"
+			}
+		]
+	},
+	{
+		"name": "Legal Assistance",
+		"subtitle": "Please note: Justice involvement and its record as a juvenile does not automatically go away when you become an adult.",
+		"children": [
+			{
+				"name": "Cabrini Green Legal Aid",
+				"url": "https://www.cgla.net/"
+			},
+			{
+				"name": "Legal Aid Chicago",
+				"url": "https://legalaidchicago.org/"
+			},
+			{
+				"name": "Cook County Legal Aid and Pro Bono Services",
+				"url": "https://www.justia.com/lawyers/illinois/cook-county/legal-aid-and-pro-bono-services"
+			}
+		]
+	},
+	{
+		"name": "Voter Registration",
+		"children": [
+			{
+				"name": "Chicago, Cook and collar counties",
+				"url": "https://chicagoelections.gov/en/home.html"
+			}
+		]
+	}
+]

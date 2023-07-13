@@ -27,7 +27,19 @@ html {
 }
 
 h1 {
+	font-size: 4rem;
+}
+
+h2 {
 	font-size: 3.5rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+h4 {
+	font-size: 1.5rem;
 }
 
 h1,
@@ -37,6 +49,8 @@ h4,
 h5,
 h6 {
 	font-family: var(--header-font);
+	margin: 0;
+	margin-bottom: utils.spacing(1);
 }
 
 h2 {
