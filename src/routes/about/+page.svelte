@@ -9,7 +9,7 @@
 			ex-offenders to the needed resources that will foster self- sufficiency. This non-for-profit
 			organization works diligently to serve those in need.
 		</p>
-		<h3>We work with juveniles and adults</h3>
+		<h4>We work with juveniles and adults</h4>
 		<p>
 			We work with those with or without gang affiliations. We work with those incarcerated and
 			formerly incarcerated. We also work with the addicted and formerly addicted to drugs and
