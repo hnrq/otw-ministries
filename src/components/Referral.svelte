@@ -26,16 +26,39 @@
 	</svg>
 	<h5 class="referral__name">{referral.name}</h5>
 	{#if referral.note}
-		<span class="referral__note">{referral?.note}</span>
+		<small class="referral__note">{referral?.note}</small>
 	{/if}
-	<span class="referral__url">{referral.url}</span>
+	<small class="referral__url">{referral.url}</small>
 </a>
 
 <style lang="scss">
+	@use '$theme/utils';
+
 	.referral {
+		text-decoration: none;
+		display: grid;
+		grid-template: 1fr auto 1fr / auto 1fr;
+		column-gap: utils.spacing(1);
+
+		&__icon {
+			grid-area: 1 / 1 / 2 / 2;
+		}
+
+		&__name {
+			grid-area: 1 / 2 / 2 / 3;
+			margin: 0;
+		}
+
+		&__note {
+			color: var(--text-medium);
+			font-style: italic;
+			grid-area: 2 / 2 / 3 / 3;
+		}
+
 		&__url {
 			color: var(--text-medium);
 			font-style: italic;
+			grid-area: 3 / 2 / 4 / 3;
 		}
 	}
 </style>

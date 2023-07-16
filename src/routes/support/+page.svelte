@@ -1,7 +1,7 @@
 <section class="support">
 	<h2>Support us</h2>
 	<small class="support__subtitle">
-		Please help us move forward to continue to serve those in their journey to freedom and recovery.
+		Please help us move forward to continue to serve those in their journey to freedom and recovery
 	</small>
 
 	<h3>PayPal</h3>
