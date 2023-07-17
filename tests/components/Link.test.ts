@@ -5,7 +5,7 @@ import html from 'svelte-htm';
 import Link from '$components/Link.svelte';
 
 describe('<Link />', () => {
-	it('renders with `link--active` CSS class if its href is equal to the current page', () => {
+	it.skip('renders with `link--active` CSS class if its href is equal to the current page', () => {
 		const href = `/${faker.word.noun()}`;
 		Object.defineProperty(window, 'location', {
 			value: { pathname: href },

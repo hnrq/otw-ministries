@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { browser } from '$app/environment';
 	import { page } from '$app/stores';
 	import classNames from 'classnames';
 
@@ -7,7 +8,7 @@
 	let isActive: boolean;
 
 	$: {
-		isActive = $page.url.pathname === href;
+		if (browser) isActive = $page.url.pathname === href;
 	}
 </script>
 

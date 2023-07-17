@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Food",
-		"children": [
+		"referrals": [
 			{
 				"name": "Greater Chicago Food Depository",
 				"url": "https://www.chicagosfoodbank.org/find-food/"
@@ -23,7 +23,7 @@
 	{
 		"name": "Illinois Secretary of State",
 		"subtitle": "Please note: Even if you cannot get a Drivers license, with the correct documents, you can get a state ID.",
-		"children": [
+		"referrals": [
 			{
 				"name": "State ID and Drivers Licenses",
 				"url": "https://www.ilsos.gov/publications/pdf_publications/dsd_x173.pdf"
@@ -36,7 +36,7 @@
 	},
 	{
 		"name": "Education",
-		"children": [
+		"referrals": [
 			{
 				"name": "City Colleges of Chicago",
 				"note": "Adult Basic Education, English as a Second Language, Vocational certificates and Associate degrees",
@@ -54,7 +54,7 @@
 	},
 	{
 		"name": "Job Training",
-		"children": [
+		"referrals": [
 			{
 				"name": "Greater Chicago Food Depository",
 				"url": "https://www.chicagosfoodbank.org/get-help/job-training/"
@@ -99,7 +99,7 @@
 	},
 	{
 		"name": "Narcan",
-		"children": [
+		"referrals": [
 			{
 				"name": "Available in all Chicago Public Libraries—free Narcan",
 				"url": "https://www.chipublib.org/"
@@ -117,7 +117,7 @@
 	},
 	{
 		"name": "Recovery Resources and meetings",
-		"children": [
+		"referrals": [
 			{
 				"name": "Chicago Recovery Communities Coalition",
 				"url": "https://www.chicagorecovery.org/"
@@ -126,7 +126,7 @@
 	},
 	{
 		"name": "Healthcare",
-		"children": [
+		"referrals": [
 			{
 				"name": "Federally qualified health care centers in Chicago",
 				"url": "https://data.cityofchicago.org/widgets/cjg8-dbka"
@@ -143,7 +143,7 @@
 	},
 	{
 		"name": "Free Dental Care",
-		"children": [
+		"referrals": [
 			{
 				"name": "Federally qualified health care centers in Chicago",
 				"url": "https://data.cityofchicago.org/widgets/cjg8-dbka"
@@ -153,7 +153,7 @@
 	{
 		"name": "Legal Assistance",
 		"subtitle": "Please note: Justice involvement and its record as a juvenile does not automatically go away when you become an adult.",
-		"children": [
+		"referrals": [
 			{
 				"name": "Cabrini Green Legal Aid",
 				"url": "https://www.cgla.net/"
@@ -170,7 +170,7 @@
 	},
 	{
 		"name": "Voter Registration",
-		"children": [
+		"referrals": [
 			{
 				"name": "Chicago, Cook and collar counties",
 				"url": "https://chicagoelections.gov/en/home.html"
