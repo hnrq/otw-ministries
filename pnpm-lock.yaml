@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  svelte-awesome:
+    specifier: ^3.2.1
+    version: 3.2.1(svelte@3.59.2)
+
 devDependencies:
   '@faker-js/faker':
     specifier: ^8.0.2
@@ -2723,6 +2728,14 @@ packages:
       has-flag: 4.0.0
     dev: true
 
+  /svelte-awesome@3.2.1(svelte@3.59.2):
+    resolution: {integrity: sha512-4jckcBktldqgmHUWg1xvl3vCrZllt5YSSsPun4NW7dOp9VZx1mOqJ9ddkYCH7O3PJN4ntucJr5P9/6q2xvw/0A==}
+    peerDependencies:
+      svelte: ^3.43.1 || ^4.0.0
+    dependencies:
+      svelte: 3.59.2
+    dev: false
+
   /svelte-check@3.4.4(postcss@8.4.24)(sass@1.63.6)(svelte@3.59.2):
     resolution: {integrity: sha512-Uys9+R65cj8TmP8f5UpS7B2xKpNLYNxEWJsA5ZoKcWq/uwvABFF7xS6iPQGLoa7hxz0DS6xU60YFpmq06E4JxA==}
     hasBin: true
@@ -2884,7 +2897,6 @@ packages:
   /svelte@3.59.2:
     resolution: {integrity: sha512-vzSyuGr3eEoAtT/A6bmajosJZIUWySzY2CzB3w2pgPvnkUjGqlDnsNnA0PMO+mMAhuyMul6C2uuZzY6ELSkzyA==}
     engines: {node: '>= 8'}
-    dev: true
 
   /text-table@0.2.0:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
