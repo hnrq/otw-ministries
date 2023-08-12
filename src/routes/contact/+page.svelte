@@ -83,6 +83,8 @@
 	@use '$theme/utils';
 
 	.contact {
+		margin-bottom: utils.spacing(3);
+
 		&__title {
 			margin: 0;
 		}
