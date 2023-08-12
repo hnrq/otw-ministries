@@ -32,6 +32,12 @@
 			name: 'phone',
 			placeholder: 'Phone',
 			validators: [],
+			errorMessages: {}
+		},
+		{
+			name: 'subject',
+			placeholder: 'Subject',
+			validators: [required()],
 			errorMessages: { required: 'Subject required' }
 		},
 		{
@@ -89,18 +95,19 @@
 			display: grid;
 			margin-top: utils.spacing(4);
 			grid-template:
-				'a b' auto
-				'c c' auto
-				'd d' 400px
-				'e e' auto;
+				'a b c' auto
+				'd d d' auto
+				'e e e' 400px
+				'f f f' auto;
 
 			@include utils.breakpoint-down('sm') {
 				grid-template:
 					'a a' auto
 					'b b' auto
 					'c c' auto
-					'd d' 200px
-					'e e' auto;
+					'd d' auto
+					'e e' 200px
+					'f f' auto;
 			}
 			gap: utils.spacing(2);
 		}
@@ -117,12 +124,16 @@
 			grid-area: c;
 		}
 
-		&__content {
+		&__subject {
 			grid-area: d;
 		}
 
-		&__submit {
+		&__content {
 			grid-area: e;
+		}
+
+		&__submit {
+			grid-area: f;
 			justify-self: end;
 		}
 	}
