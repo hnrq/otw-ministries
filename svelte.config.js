@@ -13,6 +13,7 @@ const config = {
 			'$components/*': 'src/components/*',
 			'$layouts/*': 'src/layouts/*',
 			'$routes/*': 'src/routes/*',
+			'$utils/*': 'src/utils/*',
 			'$theme/*': 'src/theme/*'
 		}
 	}
