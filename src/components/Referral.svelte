@@ -37,7 +37,7 @@
 	.referral {
 		text-decoration: none;
 		display: grid;
-		grid-template: 1fr auto 1fr / auto 1fr;
+		grid-template: 1fr auto 1rem / auto 1fr;
 		column-gap: utils.spacing(1);
 
 		&__icon {
@@ -58,6 +58,10 @@
 		&__url {
 			color: var(--text-medium);
 			font-style: italic;
+			max-width: 200px;
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
 			grid-area: 3 / 2 / 4 / 3;
 		}
 	}

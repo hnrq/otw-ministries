@@ -6,10 +6,10 @@
 <nav class="header">
 	<Link href="/"><Logo width={40} height={40} /></Link>
 	<div class="header__links">
-		<Link href="/about">About Us</Link>
+		<Link href="/about">About</Link>
 		<Link href="/referral">Referral Services</Link>
-		<Link href="/contact">Contact Us</Link>
-		<Link href="/support">Support Us</Link>
+		<Link href="/contact">Contact</Link>
+		<Link href="/support">Support</Link>
 	</div>
 </nav>
 

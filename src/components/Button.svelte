@@ -17,7 +17,6 @@
 		background-color: var(--text-high);
 		color: white;
 		padding: utils.spacing(1) utils.spacing(2);
-		border-radius: 4px;
 
 		&:hover {
 			cursor: pointer;
