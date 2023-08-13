@@ -16,7 +16,8 @@
 		outline: none;
 		background-color: var(--text-high);
 		color: white;
-		padding: utils.spacing(1) utils.spacing(2);
+		text-transform: uppercase;
+		padding: utils.spacing(1.5) utils.spacing(4);
 
 		&:hover {
 			cursor: pointer;
