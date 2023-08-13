@@ -31,7 +31,6 @@
 		&__field {
 			padding: utils.spacing(1.5);
 			border: none;
-			border-radius: 4px;
 			background-color: hsla(0, 0%, 0%, 0.03);
 			color: var(--text-high);
 		}
