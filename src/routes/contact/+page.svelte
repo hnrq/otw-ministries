@@ -99,18 +99,9 @@
 			grid-template:
 				'a b c' auto
 				'd d d' auto
-				'e e e' 400px
+				'e e e' 200px
 				'f f f' auto;
 
-			@include utils.breakpoint-down('sm') {
-				grid-template:
-					'a a' auto
-					'b b' auto
-					'c c' auto
-					'd d' auto
-					'e e' 200px
-					'f f' auto;
-			}
 			gap: utils.spacing(2);
 		}
 
