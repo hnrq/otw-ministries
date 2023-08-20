@@ -11,9 +11,9 @@
 		{#each data.referralSections as referralSection}
 			<div class="referrals__section">
 				<h3>{referralSection.name}</h3>
-				{#if referralSection.subtitle}<small class="referrals__section-subtitle"
-						>{referralSection.subtitle}</small
-					>{/if}
+				{#if referralSection.subtitle}
+					<small class="referrals__section-subtitle">{referralSection.subtitle}</small>
+				{/if}
 				<div class="referrals__children">
 					{#each referralSection.referrals as referral}
 						<Referral {referral} />

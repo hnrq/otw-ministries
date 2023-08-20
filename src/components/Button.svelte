@@ -14,13 +14,19 @@
 	.button {
 		border: none;
 		outline: none;
-		background-color: var(--text-high);
-		color: white;
+		background: transparent;
+		color: var(--text-high);
+		transition-property: color, background;
+		transition-duration: 0.2s;
+		transition-timing-function: ease-in;
+		border: 1px solid var(--text-high);
 		text-transform: uppercase;
 		padding: utils.spacing(1.5) utils.spacing(4);
 
 		&:hover {
 			cursor: pointer;
+			background: var(--text-high);
+			color: white;
 		}
 
 		&--full-width {
