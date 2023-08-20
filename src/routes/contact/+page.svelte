@@ -103,6 +103,16 @@
 				'f f f' auto;
 
 			gap: utils.spacing(2);
+
+			@include utils.breakpoint-down('sm') {
+				grid-template:
+					'a' auto
+					'b' auto
+					'c' auto
+					'd' auto
+					'e' 200px
+					'f' auto;
+			}
 		}
 
 		&__name {
@@ -128,6 +138,10 @@
 		&__submit {
 			grid-area: f;
 			justify-self: end;
+
+			@include utils.breakpoint-down('sm') {
+				width: 100%;
+			}
 		}
 	}
 </style>
