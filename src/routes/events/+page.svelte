@@ -1,7 +1,7 @@
 <script lang="ts">
-	import Button from '$components/Button.svelte';
-	import Card from '$components/Card.svelte';
-	import ImageDialog from '$components/ImageDialog.svelte';
+	import Button from '$lib/components/Button.svelte';
+	import Card from '$lib/components/Card.svelte';
+	import ImageDialog from '$lib/components/ImageDialog.svelte';
 	import format from 'date-fns/format';
 	import { openModal } from 'svelte-modals';
 
@@ -35,7 +35,7 @@
 </section>
 
 <style lang="scss">
-	@use '$theme/utils';
+	@use '$lib/theme/utils';
 
 	.events {
 		&__list {

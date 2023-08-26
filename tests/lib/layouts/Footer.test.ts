@@ -1,4 +1,4 @@
-import Footer from '$layouts/Footer.svelte';
+import Footer from '$lib/layouts/Footer.svelte';
 import { render } from '@testing-library/svelte';
 
 describe('<Footer />', () => {

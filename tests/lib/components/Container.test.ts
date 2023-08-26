@@ -1,4 +1,4 @@
-import Container from '$components/Container.svelte';
+import Container from '$lib/components/Container.svelte';
 import { faker } from '@faker-js/faker';
 import { render } from '@testing-library/svelte';
 import html from 'svelte-htm';

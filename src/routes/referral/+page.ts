@@ -1,5 +1,5 @@
-import referrals from '../../assets/referrals.json';
-import type { Referral } from '$components/Referral.svelte';
+import referrals from '$lib/assets/referrals.json';
+import type { Referral } from '$lib/components/Referral.svelte';
 
 type ReferralSection = {
 	name: string;

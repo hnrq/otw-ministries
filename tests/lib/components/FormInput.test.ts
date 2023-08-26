@@ -3,7 +3,7 @@ import { field } from 'svelte-forms';
 import { faker } from '@faker-js/faker';
 import { render } from '@testing-library/svelte';
 
-import FormInput from '$components/FormInput.svelte';
+import FormInput from '$lib/components/FormInput.svelte';
 
 describe('<FormInput />', () => {
 	it('renders a HTML input element', () => {

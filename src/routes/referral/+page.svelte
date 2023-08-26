@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Referral from '$components/Referral.svelte';
+	import Referral from '$lib/components/Referral.svelte';
 
 	export let data: import('./$types').PageData;
 </script>
@@ -25,7 +25,7 @@
 </section>
 
 <style lang="scss">
-	@use '$theme/utils';
+	@use '$lib/theme/utils';
 
 	.referrals {
 		&__sections {

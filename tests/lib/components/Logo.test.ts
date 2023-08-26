@@ -1,6 +1,6 @@
 import { render } from '@testing-library/svelte';
 
-import Logo from '$components/Logo.svelte';
+import Logo from '$lib/components/Logo.svelte';
 
 describe('<Logo />', () => {
 	it('renders an svg', () => {

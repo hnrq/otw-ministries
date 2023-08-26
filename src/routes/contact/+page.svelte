@@ -12,8 +12,8 @@
 	import { required, email } from 'svelte-forms/validators';
 
 	import { enhance } from '$app/forms';
-	import FormInput from '$components/FormInput.svelte';
-	import Button from '$components/Button.svelte';
+	import FormInput from '$lib/components/FormInput.svelte';
+	import Button from '$lib/components/Button.svelte';
 
 	const fields: Field[] = [
 		{
@@ -80,7 +80,7 @@
 </section>
 
 <style lang="scss">
-	@use '$theme/utils';
+	@use '$lib/theme/utils';
 
 	.contact {
 		margin-bottom: utils.spacing(3);

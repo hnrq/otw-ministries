@@ -1,11 +1,11 @@
 <script>
 	import { fade } from 'svelte/transition';
 
-	import Container from '$components/Container.svelte';
-	import Header from '$layouts/Header.svelte';
+	import Container from '$lib/components/Container.svelte';
+	import Header from '$lib/layouts/Header.svelte';
 	import { Modals, closeModal } from 'svelte-modals';
 
-	import '$theme/index.scss';
+	import '$lib/theme/index.scss';
 </script>
 
 <Modals>

@@ -9,7 +9,7 @@
 <button class:button--full-width={fullWidth} class="button" {...$$props}><slot /></button>
 
 <style lang="scss">
-	@use '$theme/utils';
+	@use '$lib/theme/utils';
 
 	.button {
 		border: none;

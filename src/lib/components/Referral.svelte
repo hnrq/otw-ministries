@@ -32,7 +32,7 @@
 </a>
 
 <style lang="scss">
-	@use '$theme/utils';
+	@use '$lib/theme/utils';
 
 	.referral {
 		text-decoration: none;

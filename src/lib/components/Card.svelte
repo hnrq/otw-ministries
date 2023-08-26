@@ -19,7 +19,7 @@
 </div>
 
 <style lang="scss">
-	@use '$theme/utils';
+	@use '$lib/theme/utils';
 
 	.card {
 		box-shadow: 0px 0px 10px 0px var(--text-low);

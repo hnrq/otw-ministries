@@ -30,7 +30,7 @@
 </section>
 
 <style lang="scss">
-	@use '$theme/utils';
+	@use '$lib/theme/utils';
 
 	.support {
 		&__subtitle {

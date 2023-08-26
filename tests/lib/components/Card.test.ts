@@ -1,9 +1,8 @@
 import { render } from '@testing-library/svelte';
 import { faker } from '@faker-js/faker';
-import { debug } from 'vitest-preview';
 import html from 'svelte-htm';
 
-import Card from '$components/Card.svelte';
+import Card from '$lib/components/Card.svelte';
 
 describe('<Card />', () => {
 	it('renders an image if provided', () => {
@@ -29,7 +28,6 @@ describe('<Card />', () => {
           <button slot="actions">${content}</button>
       </${Card}>
     `);
-		debug();
 		expect(getByRole('button').parentElement).toHaveClass('card__actions');
 	});
 });

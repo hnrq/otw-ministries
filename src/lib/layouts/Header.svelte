@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Link from '$components/Link.svelte';
-	import Logo from '$components/Logo.svelte';
+	import Link from '$lib/components/Link.svelte';
+	import Logo from '$lib/components/Logo.svelte';
 </script>
 
 <nav class="header">
@@ -15,7 +15,7 @@
 </nav>
 
 <style lang="scss">
-	@use '$theme/utils';
+	@use '$lib/theme/utils';
 
 	.header {
 		display: flex;

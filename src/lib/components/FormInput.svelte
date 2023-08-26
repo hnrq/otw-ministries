@@ -22,7 +22,7 @@
 </div>
 
 <style lang="scss">
-	@use '$theme/utils';
+	@use '$lib/theme/utils';
 
 	.input {
 		display: flex;

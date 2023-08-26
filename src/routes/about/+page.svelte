@@ -29,7 +29,7 @@
 </section>
 
 <style lang="scss">
-	@use '$theme/utils';
+	@use '$lib/theme/utils';
 
 	.about {
 		display: flex;

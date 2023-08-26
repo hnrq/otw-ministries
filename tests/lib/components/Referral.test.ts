@@ -1,5 +1,5 @@
-import Referral from '$components/Referral.svelte';
-import type { Referral as ReferralType } from '$components/Referral.svelte';
+import Referral from '$lib/components/Referral.svelte';
+import type { Referral as ReferralType } from '$lib/components/Referral.svelte';
 import { faker } from '@faker-js/faker';
 import { render } from '@testing-library/svelte';
 

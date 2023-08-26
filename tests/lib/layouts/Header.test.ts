@@ -1,6 +1,6 @@
 import { render } from '@testing-library/svelte';
 
-import Header from '$layouts/Header.svelte';
+import Header from '$lib/layouts/Header.svelte';
 
 describe('<Header />', () => {
 	it.each(['About', 'Referral Services', 'Events', 'Contact', 'Support'])(
