@@ -1,7 +1,7 @@
 import { fail } from '@sveltejs/kit';
 import validator from 'email-validator';
 import { SMTP_RECIPIENT, SMTP_SENDER } from '$env/static/private';
-import transporter from '$utils/transporter';
+import transporter from '$lib/utils/transporter';
 import type { Actions } from './$types';
 
 export const actions: Actions = {
