@@ -8,13 +8,14 @@
 
 {#if isOpen}
 	<!-- on:introstart and on:outroend are required to transition 1 at a time between modals -->
-	<div role="dialog" class="modal" transition:fly={{ y: 50 }} on:introstart on:outroend>
+	<div role="dialog" class="modal" transition:fly|global={{ y: 50 }} on:introstart on:outroend>
 		<img {src} alt="" />
 	</div>
 {/if}
 
 <style>
 	.modal {
+		z-index: 2;
 		position: fixed;
 		top: 0;
 		bottom: 0;
@@ -24,5 +25,9 @@
 		justify-content: center;
 		align-items: center;
 		pointer-events: none;
+
+		& > img {
+			height: 600px;
+		}
 	}
 </style>

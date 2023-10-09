@@ -6,7 +6,7 @@
 	export let fullWidth = false;
 </script>
 
-<button class:button--full-width={fullWidth} class="button" {...$$props}><slot /></button>
+<button class:button--full-width={fullWidth} class="button" on:click {...$$props}><slot /></button>
 
 <style lang="scss">
 	@use '$lib/theme/utils';
