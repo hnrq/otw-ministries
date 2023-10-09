@@ -1,4 +1,4 @@
-import html from 'svelte-htm';
+import html from '@playpilot/svelte-htm';
 
 import { faker } from '@faker-js/faker';
 import { render } from '@testing-library/svelte';

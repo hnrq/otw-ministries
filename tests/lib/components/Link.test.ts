@@ -1,6 +1,6 @@
 import { render } from '@testing-library/svelte';
 import { faker } from '@faker-js/faker';
-import html from 'svelte-htm';
+import html from '@playpilot/svelte-htm';
 
 import Link from '$lib/components/Link.svelte';
 

@@ -1,7 +1,7 @@
 import Container from '$lib/components/Container.svelte';
 import { faker } from '@faker-js/faker';
 import { render } from '@testing-library/svelte';
-import html from 'svelte-htm';
+import html from '@playpilot/svelte-htm';
 
 describe('<Container />', () => {
 	it('renders a class for the respective container size', () => {
