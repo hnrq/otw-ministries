@@ -2,7 +2,7 @@
 	export interface Referral {
 		name: string;
 		note?: string;
-		url: string;
+		link: string;
 	}
 </script>
 
@@ -10,7 +10,7 @@
 	export let referral: Referral;
 </script>
 
-<a class="referral" href={referral.url}>
+<a class="referral" href={referral.link}>
 	<svg
 		class="referral__icon"
 		xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +28,7 @@
 	{#if referral.note}
 		<small class="referral__note">{referral?.note}</small>
 	{/if}
-	<small class="referral__url">{referral.url}</small>
+	<small class="referral__link">{referral.link}</small>
 </a>
 
 <style lang="scss">
@@ -55,7 +55,7 @@
 			grid-area: 2 / 2 / 3 / 3;
 		}
 
-		&__url {
+		&__link {
 			color: var(--text-medium);
 			font-style: italic;
 			max-width: 200px;

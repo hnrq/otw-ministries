@@ -17,15 +17,17 @@
 			affiliations.
 		</p>
 	</div>
-	<div class="about__image">
-		<div class="img" />
+	<figure class="about__image">
+		<img src="/images/folks.webp" class="img" alt="" />
 		<!-- eslint-disable-next-line svelte/no-at-html-tags -->
-		<small class="about__image-caption">
-			“For I was an hungered, and ye gave me meat: I was thirsty, and ye gave me drink: I was a
-			stranger, and ye took me in: Naked, and ye clothed me: I was sick and ye visited me: I was in
-			prison, and ye came unto me.”<br />Matthew 25:35&36 KJV
-		</small>
-	</div>
+		<figcaption class="about__image-caption">
+			<small>
+				“For I was an hungered, and ye gave me meat: I was thirsty, and ye gave me drink: I was a
+				stranger, and ye took me in: Naked, and ye clothed me: I was sick and ye visited me: I was
+				in prison, and ye came unto me.”<br />Matthew 25:35&36 KJV
+			</small>
+		</figcaption>
+	</figure>
 </section>
 
 <style lang="scss">
@@ -66,6 +68,7 @@
 	.img {
 		width: 100%;
 		height: 400px;
+		object-fit: cover;
 		background-color: lightgray;
 		margin-bottom: utils.spacing(1);
 	}
