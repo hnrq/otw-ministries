@@ -11,21 +11,30 @@
 <section class="events">
 	<h2>Events</h2>
 	<div class="events__list">
-		{#each data.events.sort((ev1, ev2) => new Date(ev2.endDate).getTime() - new Date(ev1.endDate).getTime()) as event}
-			<div class="event" class:event--past={new Date(event.endDate).getTime() < Date.now()}>
-				<Card image={event.img}>
+		{#each data.events as event}
+			<div
+				class="event"
+				class:event--past={new Date(event.fields['endDate']).getTime() < Date.now()}
+			>
+				<!-- @ts-expect-error -->
+				<Card image={event.fields.image?.fields.file.url}>
 					<svelte:fragment slot="content">
-						<p class="event__name"><strong>{event.name}</strong></p>
-						<small>
-							{format(new Date(event.startDate), 'MMM dd yyyy, HH:mm')} - {format(
-								new Date(event.endDate),
-								'MMM dd yyyy, HH:mm'
-							)}
-						</small>
-						<br />
-						<small>{event.address}</small>
+						<p class="event__name"><strong>{event.fields['name']}</strong></p>
+						{#if event.fields['startDate']}
+							<small>
+								{format(new Date(event.fields['startDate']), 'MMM dd yyyy, HH:mm')} - {format(
+									new Date(event.fields['endDate']),
+									'MMM dd yyyy, HH:mm'
+								)}
+							</small>
+							<br />
+						{/if}
+						{#if event.fields['address']}<small>{event.fields['address']}</small>{/if}
 					</svelte:fragment>
-					<Button slot="actions" on:click={() => openModal(ImageDialog, { src: event.img })}>
+					<Button
+						slot="actions"
+						on:click={() => openModal(ImageDialog, { src: event.fields.image?.fields.file.url })}
+					>
 						See more
 					</Button>
 				</Card>
