@@ -14,8 +14,6 @@ export const actions: Actions = {
 		if (!subject) return fail(400, { subject, missing: true });
 		if (email && !validator.validate(email.toString())) return fail(400, { email, invalid: true });
 
-		console.log(SMTP_SENDER, SMTP_RECIPIENT);
-
 		await transporter.sendMail({
 			from: SMTP_SENDER,
 			to: SMTP_RECIPIENT,

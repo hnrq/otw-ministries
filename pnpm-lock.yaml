@@ -5,11 +5,17 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@contentful/rich-text-html-renderer':
+    specifier: ^16.3.3
+    version: 16.3.3
   contentful:
     specifier: ^10.6.16
     version: 10.6.16
 
 devDependencies:
+  '@contentful/rich-text-types':
+    specifier: ^16.3.3
+    version: 16.3.3
   '@faker-js/faker':
     specifier: ^8.1.0
     version: 8.1.0
@@ -160,10 +166,17 @@ packages:
       regenerator-runtime: 0.13.11
     dev: true
 
-  /@contentful/rich-text-types@16.3.0:
-    resolution: {integrity: sha512-OfQmAu5bxE0CgQA3WlUleVej+ifFG/iXmB2DmUl4EyWyFue1aiIvfjxQhcDRSH4n1jUNMJ6L1wInZL8uV5m3TQ==}
+  /@contentful/rich-text-html-renderer@16.3.3:
+    resolution: {integrity: sha512-BENvqOXIMi9v/DTCjhW3/tNymHvp9FM7P1Y38E5TpFoSg6b6dpNZsqrvqhbYctLBRk6QuiG+P0p2xYBqT2dJkQ==}
     engines: {node: '>=6.0.0'}
+    dependencies:
+      '@contentful/rich-text-types': 16.3.3
+      escape-html: 1.0.3
     dev: false
+
+  /@contentful/rich-text-types@16.3.3:
+    resolution: {integrity: sha512-AoC/fbzRiBPodnUfOXGf5v0hjnqGMcaABT6+HdP7Kn/3n6m12y6Uhhcbj1J8H1rIMxTkTmc5LQhroHJNRNyidg==}
+    engines: {node: '>=6.0.0'}
 
   /@esbuild/android-arm64@0.18.20:
     resolution: {integrity: sha512-Nz4rJcchGDtENV0eMKUNa6L12zz2zBDXuhj/Vjh18zGqB44Bi7MBMSXjgunJgjRhCmKOjnPuZp4Mb6OKqtMHLQ==}
@@ -1599,7 +1612,7 @@ packages:
     resolution: {integrity: sha512-3PF4VQAWOhy7CiGYm4KtQn9AN81p77BgSCDQNndFfWdggs6/b2wMWXkmN1UGSJI7OKBRpbiy12mNrr7SrvuVIA==}
     engines: {node: '>=12'}
     dependencies:
-      '@contentful/rich-text-types': 16.3.0
+      '@contentful/rich-text-types': 16.3.3
       axios: 1.6.5
       contentful-resolve-response: 1.8.1
       contentful-sdk-core: 8.1.2
@@ -1901,6 +1914,10 @@ packages:
       '@esbuild/win32-ia32': 0.19.4
       '@esbuild/win32-x64': 0.19.4
     dev: true
+
+  /escape-html@1.0.3:
+    resolution: {integrity: sha512-NiSupZ4OeuGwr68lGIeym/ksIZMJodUGOSCZ/FSnTxcrekbvqrgdUxlJOMpijaKZVjAJrWrGs/6Jy8OMuyj9ow==}
+    dev: false
 
   /escape-string-regexp@1.0.5:
     resolution: {integrity: sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==}

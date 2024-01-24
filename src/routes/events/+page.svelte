@@ -2,6 +2,7 @@
 	import Button from '$lib/components/Button.svelte';
 	import Card from '$lib/components/Card.svelte';
 	import ImageDialog from '$lib/components/ImageDialog.svelte';
+	import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
 	import format from 'date-fns/format';
 	import { openModal } from 'svelte-modals';
 
@@ -30,10 +31,17 @@
 							<br />
 						{/if}
 						{#if event.fields['address']}<small>{event.fields['address']}</small>{/if}
+						{#if event.fields['description']}<p class="event__description">
+								{@html documentToHtmlString(event.fields['description'])}
+							</p>{/if}
 					</svelte:fragment>
 					<Button
 						slot="actions"
-						on:click={() => openModal(ImageDialog, { src: event.fields.image?.fields.file.url })}
+						on:click={() =>
+							openModal(ImageDialog, {
+								src: event.fields.image?.fields.file.url,
+								description: event.fields['description']
+							})}
 					>
 						See more
 					</Button>
@@ -62,6 +70,14 @@
 		&__name {
 			margin: 0;
 			margin-bottom: utils.spacing(1);
+		}
+
+		&__description {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			-webkit-line-clamp: 4;
+			max-height: 150px;
+			-webkit-box-orient: vertical;
 		}
 	}
 </style>

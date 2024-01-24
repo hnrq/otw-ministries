@@ -10,6 +10,7 @@ type EventSkeleton = {
 		image: EntryFieldTypes.AssetLink;
 		startDate: EntryFieldTypes.Text;
 		endDate: EntryFieldTypes.Text;
+		description: EntryFieldTypes.RichText;
 	};
 };
 

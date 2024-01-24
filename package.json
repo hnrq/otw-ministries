@@ -14,6 +14,7 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
+		"@contentful/rich-text-types": "^16.3.3",
 		"@faker-js/faker": "^8.1.0",
 		"@playpilot/svelte-htm": "^1.0.1",
 		"@sveltejs/adapter-vercel": "^3.0.3",
@@ -51,6 +52,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@contentful/rich-text-html-renderer": "^16.3.3",
 		"contentful": "^10.6.16"
 	}
 }
